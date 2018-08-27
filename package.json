@@ -4,8 +4,20 @@
   "description": "easy to use config for node or browser",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node ./test.js"
   },
   "author": "yuanliwei",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuanliwei/easy-config-store.git"
+  },
+  "keywords": [
+    "config",
+    "configuration"
+  ],
+  "bugs": {
+    "url": "https://github.com/yuanliwei/easy-config-store/issues"
+  },
+  "homepage": "https://github.com/yuanliwei/easy-config-store#readme"
 }

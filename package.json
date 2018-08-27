@@ -1,0 +1,11 @@
+{
+  "name": "easy-config-store",
+  "version": "1.0.0",
+  "description": "easy to use config for node or browser",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "yuanliwei",
+  "license": "ISC"
+}

@@ -1,6 +1,6 @@
 {
   "name": "easy-config-store",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "easy to use config for node or browser",
   "main": "index.js",
   "scripts": {

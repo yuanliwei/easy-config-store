@@ -2,12 +2,17 @@ const config = require('./index');
 const path = require('path');
 
 config.cfgClear()
-config.cfgUseMemory()
+config.handles = {}
+config.books = {}
+config.cfgUseFile(path.join(__dirname, '.git/cfg.json'))
+config.handles['uuu'] = new Date().toLocaleString()
 config.user.name = 'Y'
 config.birth.day = 26
 config.birth.month = 8
-config.books = []
-config.books[0].name = "Thinking in JavaScript"
+config.books[Math.random()].name = "Thinking in JavaScript"+new Date().toLocaleString()
+config.books[Math.random()].name = "Thinking in JavaScript"+new Date().toLocaleString()
+config.books[Math.random()].name = "Thinking in JavaScript"+new Date().toLocaleString()
+config.books[Math.random()].name = "Thinking in JavaScript"+new Date().toLocaleString()
 console.log(JSON.stringify(config))
 return
 
